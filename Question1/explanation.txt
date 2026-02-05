@@ -1,0 +1,59 @@
+Command: cd Question1
+Explanation:
+This command navigates into the Question1 directory so that all files related to this question are organized in one place.
+
+Command: touch analyze.sh
+Explanation:
+This command creates an empty shell script file named analyze.sh.
+
+Command: chmod +x analyze.sh
+Explanation:
+This command gives execute permission to the script, allowing it to be run directly from the terminal.
+
+Command: nano analyze.sh
+Explanation:
+This command opens the analyze.sh file in the nano text editor to write the shell script code.
+
+Action: CTRL + O, ENTER, CTRL + X
+Explanation:
+These actions save the script content to the file and exit the nano editor.
+
+Command: echo "Linux shell scripting is powerful" > sample.txt
+Explanation:
+This command creates a sample text file named sample.txt with content used to test file analysis functionality.
+
+Command: mkdir testdir
+Explanation:
+This command creates a directory named testdir to test directory-related functionality of the script.
+
+Command: touch testdir/a.txt testdir/b.txt testdir/image.png
+Explanation:
+These commands create multiple files inside the directory, including text and non-text files, to verify correct file counting.
+
+Command: ./analyze.sh sample.txt
+Explanation:
+This command executes the script using a file as input and displays the number of lines, words, and characters in the file.
+
+Command: ./analyze.sh testdir
+Explanation:
+This command executes the script using a directory as input and displays the total number of files and the number of .txt files.
+
+Command: ./analyze.sh
+Explanation:
+This command tests the script with no arguments and verifies that it correctly handles invalid argument count.
+
+Command: ./analyze.sh wrongpath
+Explanation:
+This command tests the script with an invalid path and verifies that the script displays an appropriate error message.
+
+Command: git add Question1
+Explanation:
+This command stages all Question 1 files for committing to the GitHub repository.
+
+Command: git commit -m "Question 1 completed"
+Explanation:
+This command commits the Question 1 files with a descriptive message.
+
+Command: git push
+Explanation:
+This command pushes the committed files to the remote public GitHub repository.
