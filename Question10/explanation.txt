@@ -1,0 +1,27 @@
+Command: cd ../Question10
+Explanation:
+Navigates into the Question10 directory.
+
+Command: nano signals.c
+Explanation:
+Creates a C program to handle SIGINT signal.
+
+Command: gcc signals.c -o signals
+Explanation:
+Compiles the signal handling program.
+
+Command: ./signals
+Explanation:
+Runs the program and handles Ctrl+C signal gracefully.
+
+Command: git add .
+Explanation:
+Stages Question10 files.
+
+Command: git commit -m "Question 10 completed"
+Explanation:
+Commits Question 10.
+
+Command: git push
+Explanation:
+Pushes changes to GitHub.
