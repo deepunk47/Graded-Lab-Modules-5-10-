@@ -46,13 +46,13 @@ Command: ./analyze.sh wrongpath
 Explanation:
 This command tests the script with an invalid path and verifies that the script displays an appropriate error message.
 
-Command: git add Question1
+Command: git add .
 Explanation:
-This command stages all Question 1 files for committing to the GitHub repository.
+This command stages all files in the current Question1 directory for committing to the GitHub repository.
 
-Command: git commit -m "Question 1 completed"
+Command: git commit -m "Added files and explanations for Question 1"
 Explanation:
-This command commits the Question 1 files with a descriptive message.
+This command commits the Question 1 files with a descriptive commit message.
 
 Command: git push
 Explanation:
