@@ -1,0 +1,35 @@
+Command: cd ../Question3
+Explanation:
+This command navigates into the Question3 directory to organize all files related to this question.
+
+Command: nano marks.txt
+Explanation:
+This command creates a marks.txt file containing student roll numbers, names, and marks for three subjects.
+
+Command: touch validate_results.sh
+Explanation:
+This command creates an empty shell script file for validating student results.
+
+Command: chmod +x validate_results.sh
+Explanation:
+This command grants execute permission to the result validation script.
+
+Command: nano validate_results.sh
+Explanation:
+This command opens the script in the nano editor to write logic using loops, conditionals, and arithmetic operations.
+
+Command: ./validate_results.sh
+Explanation:
+This command executes the script, processes the marks data, and displays students who failed in exactly one subject, passed in all subjects, and category counts.
+
+Command: git add .
+Explanation:
+This command stages all Question3 files for committing.
+
+Command: git commit -m "Question 3 completed"
+Explanation:
+This command commits the Question 3 files with a descriptive message.
+
+Command: git push
+Explanation:
+This command pushes the committed files to the remote repository.
