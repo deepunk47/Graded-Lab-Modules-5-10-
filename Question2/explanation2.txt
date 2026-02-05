@@ -1,0 +1,51 @@
+Command: cd ../Question2
+Explanation:
+This command navigates into the Question2 directory to keep all files related to this question organized.
+
+Command: nano system.log
+Explanation:
+This command creates a sample log file with different log levels for testing the script.
+
+Command: touch log_analyze.sh
+Explanation:
+This command creates an empty shell script file for log analysis.
+
+Command: chmod +x log_analyze.sh
+Explanation:
+This command grants execute permission to the shell script.
+
+Command: nano log_analyze.sh
+Explanation:
+This command opens the script file in the nano editor to write the log analysis logic.
+
+Command: ./log_analyze.sh system.log
+Explanation:
+This command executes the script using the log file and displays log statistics and the most recent error.
+
+Command: ls
+Explanation:
+This command lists files to verify that the log summary report file has been generated.
+
+Command: cat logsummary_*.txt
+Explanation:
+This command displays the contents of the generated log summary report.
+
+Command: ./log_analyze.sh
+Explanation:
+This command tests the script behavior when no arguments are provided.
+
+Command: ./log_analyze.sh missing.log
+Explanation:
+This command tests the script behavior when an invalid log file is provided.
+
+Command: git add .
+Explanation:
+This command stages all Question2 files for committing.
+
+Command: git commit -m "Question 2 completed"
+Explanation:
+This command commits the Question 2 files to the repository.
+
+Command: git push
+Explanation:
+This command pushes the committed changes to the remote repository.
