@@ -1,0 +1,31 @@
+Command: cd ../Question9
+Explanation:
+Navigates into the Question9 directory.
+
+Command: nano zombie.c
+Explanation:
+Creates a C program to demonstrate a zombie process.
+
+Command: gcc zombie.c -o zombie
+Explanation:
+Compiles the C program.
+
+Command: ./zombie
+Explanation:
+Runs the program creating a zombie process.
+
+Command: ps -el | grep Z
+Explanation:
+Displays zombie processes.
+
+Command: git add .
+Explanation:
+Stages Question9 files.
+
+Command: git commit -m "Question 9 completed"
+Explanation:
+Commits Question 9.
+
+Command: git push
+Explanation:
+Pushes changes to GitHub.
