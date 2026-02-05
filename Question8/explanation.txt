@@ -1,0 +1,47 @@
+Command: cd ../Question8
+Explanation:
+Navigates into the Question8 directory.
+
+Command: mkdir testfiles
+Explanation:
+Creates a directory to test file organization.
+
+Command: touch testfiles/a.txt testfiles/b.txt
+Explanation:
+Creates text files for testing.
+
+Command: touch testfiles/img1.jpg testfiles/img2.png
+Explanation:
+Creates image files for testing.
+
+Command: touch testfiles/doc1.pdf
+Explanation:
+Creates a document file for testing.
+
+Command: touch organize.sh
+Explanation:
+Creates the shell script file.
+
+Command: chmod +x organize.sh
+Explanation:
+Grants execute permission to the script.
+
+Command: nano organize.sh
+Explanation:
+Opens the script to write file organization logic.
+
+Command: ./organize.sh testfiles
+Explanation:
+Executes the script to organize files by extension.
+
+Command: git add .
+Explanation:
+Stages Question8 files.
+
+Command: git commit -m "Question 8 completed"
+Explanation:
+Commits Question 8.
+
+Command: git push
+Explanation:
+Pushes changes to GitHub.
