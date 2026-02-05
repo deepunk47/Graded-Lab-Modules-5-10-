@@ -1,0 +1,10 @@
+user1@gmail.com
+john_doe@yahoo.com
+alice123@company.com
+bob@site
+charlie99@domain.com
+user1@gmail.com
+invalid-email
+test@abc.com
+hello@world.net
+mark42@service.com

@@ -1,0 +1,43 @@
+Command: cd ../Question4
+Explanation:
+This command navigates into the Question4 directory to organize all files related to this question.
+
+Command: nano emails.txt
+Explanation:
+This command creates the emails.txt file containing valid, invalid, and duplicate email addresses for testing.
+
+Command: touch emailcleaner.sh
+Explanation:
+This command creates an empty shell script file for cleaning email addresses.
+
+Command: chmod +x emailcleaner.sh
+Explanation:
+This command grants execute permission to the email cleaner script.
+
+Command: nano emailcleaner.sh
+Explanation:
+This command opens the script in the nano editor to write logic using grep, sort, uniq, and redirection.
+
+Command: ./emailcleaner.sh
+Explanation:
+This command executes the script and separates valid and invalid email addresses into different files.
+
+Command: cat valid.txt
+Explanation:
+This command displays the list of valid email addresses after removing duplicates.
+
+Command: cat invalid.txt
+Explanation:
+This command displays the list of invalid email addresses.
+
+Command: git add .
+Explanation:
+This command stages all Question4 files for committing.
+
+Command: git commit -m "Question 4 completed"
+Explanation:
+This command commits the Question 4 files with a descriptive message.
+
+Command: git push
+Explanation:
+This command pushes the committed changes to the remote repository.

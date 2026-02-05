@@ -1,0 +1,5 @@
+alice123@company.com
+charlie99@domain.com
+mark42@service.com
+test@abc.com
+user1@gmail.com

@@ -1,0 +1,4 @@
+john_doe@yahoo.com
+bob@site
+invalid-email
+hello@world.net
