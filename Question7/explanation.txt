@@ -1,0 +1,35 @@
+Command: cd ../Question7
+Explanation:
+This command navigates into the Question7 directory to organize all files related to this question.
+
+Command: nano words.txt
+Explanation:
+This command creates the words.txt file containing repeated words for testing word frequency counting.
+
+Command: touch wordcount.sh
+Explanation:
+This command creates an empty shell script file for counting word frequency.
+
+Command: chmod +x wordcount.sh
+Explanation:
+This command grants execute permission to the wordcount script.
+
+Command: nano wordcount.sh
+Explanation:
+This command opens the script in the nano editor to write logic using tr, sort, and uniq.
+
+Command: ./wordcount.sh
+Explanation:
+This command executes the script and displays the frequency of each word in sorted order.
+
+Command: git add .
+Explanation:
+This command stages all Question7 files for committing.
+
+Command: git commit -m "Question 7 completed"
+Explanation:
+This command commits the Question 7 files with a descriptive message.
+
+Command: git push
+Explanation:
+This command pushes the committed changes to the remote repository.
