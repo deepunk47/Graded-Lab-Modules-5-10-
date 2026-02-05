@@ -1,0 +1,47 @@
+Command: cd ../Question6
+Explanation:
+This command navigates into the Question6 directory to organize all files related to this question.
+
+Command: nano data.txt
+Explanation:
+This command creates a sample input file that will be backed up by the script.
+
+Command: touch backup.sh
+Explanation:
+This command creates an empty shell script file for performing file backups.
+
+Command: chmod +x backup.sh
+Explanation:
+This command grants execute permission to the backup script.
+
+Command: nano backup.sh
+Explanation:
+This command opens the backup script in the nano editor to write the backup logic.
+
+Command: ./backup.sh data.txt
+Explanation:
+This command executes the script and creates a date-stamped backup of the file.
+
+Command: ls
+Explanation:
+This command lists the files to verify that the backup file has been created.
+
+Command: ./backup.sh
+Explanation:
+This command tests the script behavior when no filename is provided.
+
+Command: ./backup.sh missing.txt
+Explanation:
+This command tests the script behavior when a non-existent file is provided.
+
+Command: git add .
+Explanation:
+This command stages all Question6 files for committing.
+
+Command: git commit -m "Question 6 completed"
+Explanation:
+This command commits the Question 6 files with a descriptive message.
+
+Command: git push
+Explanation:
+This command pushes the committed changes to the remote repository.
